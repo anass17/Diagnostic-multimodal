@@ -1,0 +1,18 @@
+train: ./data/processed/Data_Brain/Train
+val: ./data/processed/Data_Brain/Val
+
+nc: 4
+names: ['Glioma', 'Meningioma', 'No Tumor', 'Pituitary']
+
+augmentations:
+  hsv_h: 0.0
+  hsv_s: 0.0
+  hsv_v: 0.0
+  degrees: 0.0
+  translate: 0.0
+  scale: 0.0
+  flipud: 0.0
+  fliplr: 0.0
+  mosaic: 0.0
+  mixup: 0.0
+  copy_paste: 0.0
