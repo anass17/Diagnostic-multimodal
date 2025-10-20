@@ -1,0 +1,5 @@
+train: ./data/processed/Data_Brain/Train
+val: ./data/processed/Data_Brain/Val
+
+nc: 4
+names: ['Glioma', 'Meningioma', 'No Tumor', 'Pituitary']
