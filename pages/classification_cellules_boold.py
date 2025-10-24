@@ -15,8 +15,8 @@ st.write("Uploader une image de cellule pour prédiction avec le modèle GoogleN
 # Charger le modèle : 
 @st.cache_resource
 def load_lodel(model_path, num_classes):
-    model = models.googlenet(pretrained=False, aux_logits=False)
-    # model = models.googlenet(pretrained=True)
+    # model = models.googlenet(pretrained=False, aux_logits=False)
+    model = models.googlenet(pretrained=True)
     model.fc = nn.Sequential(
         nn.Linear(1024, 512),
         nn.ReLU(),
