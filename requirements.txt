@@ -1,0 +1,14 @@
+torch
+torchvision
+opencv-python
+matplotlib
+seaborn
+numpy
+pandas
+ultralytics
+Pillow
+scikit-learn
+streamlit
+split-folders
+torchviz
+torchview
